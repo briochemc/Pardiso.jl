@@ -155,6 +155,10 @@ The number of threads are set at the creation of the `PardisoSolver` by looking 
 
 The number of threads used by a `PardisoSolver` can be retrieved with `get_nprocs(ps)`
 
+## `LinearSolve.jl` interface
+
+Both Pardiso variants can be used as solver backends for LinearSolve, see the corresponding [documentation](https://docs.sciml.ai/LinearSolve/stable/solvers/solvers/#Pardiso.jl)
+
 ## More advanced usage.
 
 This section discusses some more advanced usage of `Pardiso.jl`.
